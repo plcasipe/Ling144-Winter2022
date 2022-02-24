@@ -15,6 +15,17 @@ This is a normal paragraph. In a markdown file, you are working with straight up
   1. and you can also indent
   2. and keep sub-numbering
 
+
+```python
+count = 0
+
+for word in range(len(list)):
+	if list[word] == "True":
+		count = count + 1
+
+print(count)
+```
+
 I can include a [hyperlink](https://lingusitics.ucsc.edu).
 
 This is how you make a line break :
